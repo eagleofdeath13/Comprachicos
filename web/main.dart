@@ -13,34 +13,39 @@ void main() {
 startNode(String nodeNumber){
   HttpRequest.getString("scenes/"+nodeNumber+'.json').then((response){
     JsonObject jsonRoot = new JsonObject.fromJsonString(response);
-    List<String> choix,valeur,feedback;/*
-    choix[1]=jsonRoot.scene.possibilite.choix.1;
-    choix[2]=jsonRoot.scene.possibilite.choix.2;
-    choix[3]=jsonRoot.scene.possibilite.choix.3;
-    valeur[1]=jsonRoot.scene.possibilite.valeur.1;
-    valeur[2]=jsonRoot.scene.possibilite.valeur.2;
-    valeur[3]=jsonRoot.scene.possibilite.valeur.3;
-    feedback[1]=jsonRoot.scene.possibilite.feedback.1;
-    feedback[2]=jsonRoot.scene.possibilite.feedback.2;
-    feedback[3]=jsonRoot.scene.possibilite.feedback.3;
-    }*/
-    //Scene s = new Scene(jsonRoot.scene.texte);
-   // writeSceneToBook(jsonRoot.scene);
-    //print(jsonRoot.scene.suite.condition.scenes);
+    List<String> choix = new List<String>();
+    List<String> valeur = new List<String>();
+    List<String> feedback = new List<String>();
+    print(jsonRoot.scene.possibilite.choix[0]);
+    choix.add(jsonRoot.scene.possibilite.choix[0]);
+    choix.add(jsonRoot.scene.possibilite.choix[1]);
+    choix.add(jsonRoot.scene.possibilite.choix[2]);
+    valeur.add(jsonRoot.scene.possibilite.valeur[0]);
+    valeur.add(jsonRoot.scene.possibilite.valeur[1]);
+    valeur.add(jsonRoot.scene.possibilite.valeur[2]);
+    feedback.add(jsonRoot.scene.possibilite.feedback[0]);
+    feedback.add(jsonRoot.scene.possibilite.feedback[1]);
+    feedback.add(jsonRoot.scene.possibilite.feedback[2]);
+    Scene s = new Scene(jsonRoot.scene.texte,choix,valeur,feedback);
+    writeSceneToBook(s);
   });
 }
 onButton(MouseEvent e){
-  /*DivElement aDiv = new DivElement();
-  aDiv.text= "COUCOU JE SUIS UN DIV!";
-  aDiv.classes.add("new");
-  mainEl.append(aDiv);*/
+
 }
 
-writeSceneToBook(var scene){
-  print(scene);
+writeSceneToBook(Scene scene){
   DivElement sceneDiv = new DivElement();
-  sceneDiv.appendText(scene.text.split("*")[0]);
-  String a = "azeeazeaz*gfjdflgl";
-  print(a.split("*"));
-  //List<String> text = scene.text
+  List<String> textParts = scene.text.split("*");
+  sceneDiv.appendText(textParts.elementAt(0));
+  SelectElement se = new SelectElement();
+  scene.choix.forEach((String s){
+    OptionElement oe = new OptionElement();
+    oe.text = s;
+    oe.value = s;
+    se.append(oe);
+  });
+  sceneDiv.append(se);
+  sceneDiv.appendText(textParts.elementAt(1));
+  mainEl.append(sceneDiv);
 }
