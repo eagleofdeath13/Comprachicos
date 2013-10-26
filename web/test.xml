@@ -1,0 +1,27 @@
+<scene numero="" >
+    <intro>
+        <video fichier="..." />                                                 <!-- 0-1, uniquement le nom (multiformat) -->
+        <son fichier="..." loop="true/false"/>                                  <!-- 0-1, uniquement le nom (multiformat) -->
+        <effetText textColor="" backgroundColor=""/>                            <!-- 0-1 -->
+    </intro>
+
+    <possibilites>
+        <possibilite numero="" position="">                                     <!-- 1-*  position => position en nombre de caractères de la possibilité-->
+            <choix numero ="">valeur</choix>                                    <!-- 1-*  -->
+        </possibilite>
+    </possibilites>
+
+    <texte>Lorem ipsum dolor sit amet</texte>
+
+    <transitions>                                                               <!-- Liste des transitions entre scènes -->
+        <transition sceneSuivante="">                                           <!-- Condition d'accès à la scène (une seule par branche parcourable) -->
+            <choix numeroPossibilite="" numeroChoix=""/>                        <!-- 1-* couple possibilité/choix pour accéder à cette branche, plusieurs signifie une condition composée-->
+            <choix numeroPossibilite="" numeroChoix=""/>
+            <outro>
+                <video fichier=""/>
+                <son fichier=""/>
+            </outro>
+        </transition>
+    </transitions>
+
+</scene>

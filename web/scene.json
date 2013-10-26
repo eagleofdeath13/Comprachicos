@@ -1,0 +1,37 @@
+{
+    "scene": {
+        "numero": "0",
+        "possibilite": {
+            "choix": {
+                "1": "passé",
+                "2": "présent",
+                "3": "futur"
+            },
+            "valeur":{
+                "1": "oui",
+                "2": "oui",
+                "3": "non"
+            },
+            "feedback": {
+                "1": "feedbackPassé",
+                "2": "feedbackPrésent",
+                "3": "feedbackFutur"
+            }
+        },
+        "suites":{
+            "suite":{
+                "sceneSuivante":"1",
+                "condition":{
+                    "scene" : "0",
+                    "choix" : "oui"
+                },
+                "condition":{
+                    "scene" : "1",
+                    "choix" : "non"
+                }
+            }
+        },
+
+        "texte": "Lorem ipsum dolor sit amet"
+    }
+}

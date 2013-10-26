@@ -1,0 +1,4 @@
+name: testGameJam
+dependencies:
+  browser: any
+  json_object: any
