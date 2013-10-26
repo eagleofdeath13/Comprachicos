@@ -9,6 +9,10 @@ packages:
     description: json_object
     source: hosted
     version: "1.0.17"
+  lawndart:
+    description: lawndart
+    source: hosted
+    version: "0.6.4"
   meta:
     description: meta
     source: hosted
