@@ -1,0 +1,40 @@
+{"scene":{
+	"texte":"chapitre 1 question 3",
+	"possibilite":{
+		"choix":{
+			"1":"réponse 1",
+			"2":"réponse 2",
+			"3":"réponse 3"
+		},
+		"valeur":{
+			"1":"oui",
+			"2":"oui",
+			"3":"oui"
+		},
+		"feedback":{
+			"1":"feedback 1",
+			"2":"feedback 2",
+			"3":"feedback 3"
+		},
+		"suites":[
+			{
+				"sceneSuivante":"C2AQ1",
+				"choix":"oui",
+				"scene":[
+					"C1Q1",
+					"C1Q2",
+					"C1Q3"
+				]
+			},
+			{
+				"sceneSuivante":"C2BQ1",
+				"choix":"non",
+				"scene":[
+					"C1Q1",
+					"C1Q2",
+					"C1Q3"
+				]
+			}
+		]
+	}
+}}

@@ -1,6 +1,7 @@
 {
     "scene": {
         "numero": "0",
+        "texte": "Lorem ipsum dolor sit amet",
         "possibilite": {
             "choix": {
                 "1": "passé",
@@ -18,20 +19,19 @@
                 "3": "feedbackFutur"
             }
         },
-        "suites":{
-            "suite":{
+        "suites":[
+            {
                 "sceneSuivante":"1",
-                "condition":{
-                    "scene" : "0",
-                    "choix" : "oui"
-                },
-                "condition":{
-                    "scene" : "1",
-                    "choix" : "non"
-                }
-            }
-        },
+                "choix" : "oui",
+                "scenes" : ["C1Q1","C1Q2","C1Q3"]
 
-        "texte": "Lorem ipsum dolor sit amet"
+            },
+            {
+                "sceneSuivante":"2",
+                "choix" : "non",
+                "scenes" : ["C1Q1","C1Q2","C1Q3"]
+
+            }
+        ]
     }
 }

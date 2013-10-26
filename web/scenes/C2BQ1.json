@@ -1,0 +1,25 @@
+{"scene":{
+	"texte":"chapitre 2B question 1",
+	"possibilite":{
+		"choix":{
+			"1":"réponse 1",
+			"2":"réponse 2",
+			"3":"réponse 3"
+		},
+		"valeur":{
+			"1":"oui",
+			"2":"oui",
+			"3":"oui"
+		},
+		"feedback":{
+			"1":"feedback 1",
+			"2":"feedback 2",
+			"3":"feedback 3"
+		},
+		"suites":[
+			{
+				"sceneSuivante":"C2BQ2"
+			}
+		]
+	}
+}}
