@@ -8,7 +8,6 @@ class Utils {
     List<String> choix = new List<String>();
     List<String> valeur = new List<String>();
     List<String> feedback = new List<String>();
-    print(jsonRoot.scene.possibilite.choix[0]);
     choix.add(jsonRoot.scene.possibilite.choix[0]);
     choix.add(jsonRoot.scene.possibilite.choix[1]);
     choix.add(jsonRoot.scene.possibilite.choix[2]);
