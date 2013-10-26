@@ -1,25 +1,25 @@
 {"scene":{
-	"texte":"chapitre 1 * question 1",
-	"possibilite":{
-		"choix":[
-            "réponse 1",
-            "réponse 2",
-            "réponse 3"
-        ],
-		"valeur":[
-            "oui",
-			"oui",
-            "oui"
-        ],
-		"feedback":[
-            "feedback 1",
-            "feedback 2",
-            "feedback 3"
-        ],
-		"suites":[
-			{
-				"sceneSuivante":"C1Q2"
-			}
-		]
-	}
+   "texte":"chapitre 1 * question 1",
+   "possibilite":{
+      "choix":[
+         "réponse 1",
+         "réponse 2",
+         "réponse 3"
+      ],
+      "valeur":[
+         "oui",
+         "oui",
+         "oui"
+      ],
+      "feedback":[
+         "feedback 1",
+         "feedback 2",
+         "feedback 3"
+      ],
+      "suites":[
+         {
+            "sceneSuivante":"C1Q2"
+         }
+      ]
+   }
 }}
