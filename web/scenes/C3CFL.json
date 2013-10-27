@@ -1,0 +1,10 @@
+{"scene":{
+   "texte":"FIN",
+   "possibilite":{
+      "suites":[
+         {
+            "sceneSuivante":"C1Q1"
+         }
+      ]
+   }
+}}

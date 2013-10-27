@@ -29,19 +29,19 @@
       ],
       "suites":[
          {
-            "sceneSuivante":"L",
+            "sceneSuivante":"C3CFL",
             "conditions":[
                [ "r" , "5" ]
             ]
          },
          {
-            "sceneSuivante":"M",
+            "sceneSuivante":"C3CFM",
             "conditions":[
                [ "s" , "4" ]
             ]
          },
          {
-            "sceneSuivante":"V"
+            "sceneSuivante":"C3CFV"
          }
       ]
    }
