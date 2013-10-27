@@ -1,20 +1,34 @@
 {"scene":{
-   "texte":"chapitre 2B question 1",
+   "texte":"j'* .",
    "possibilite":{
       "choix":[
-         "réponse 1",
-         "réponse 2",
-         "réponse 3"
+         "attrapai",
+         "attrape",
+         "attraperai"
       ],
       "valeur":[
-         "oui",
-         "oui",
-         "oui"
+         "1",
+         "1",
+         "1"
       ],
       "feedback":[
-         "feedback 1",
-         "feedback 2",
-         "feedback 3"
+         "feedback passé",
+         "feedback présent",
+         "feedback futur"
+      ],
+      "increments":[
+         [
+            { "key":"mp" , "value":"1" },
+            { "key":"mp" , "value":"1" }
+         ],
+         [
+            { "key":"mp" , "value":"1" },
+            { "key":"mp" , "value":"1" }
+         ],
+         [
+            { "key":"mp" , "value":"1" },
+            { "key":"mp" , "value":"1" }
+         ]
       ],
       "suites":[
          {

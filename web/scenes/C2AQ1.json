@@ -1,20 +1,31 @@
 {"scene":{
-   "texte":"chapitre 2A question 1",
+   "texte":"me * dans la cage",
    "possibilite":{
       "choix":[
-         "réponse 1",
-         "réponse 2",
-         "réponse 3"
+         "rejoignit",
+         "rejoint",
+         "rejoindra"
       ],
       "valeur":[
-         "oui",
-         "oui",
-         "oui"
+         "0",
+         "0",
+         "1"
       ],
       "feedback":[
-         "feedback 1",
-         "feedback 2",
-         "feedback 3"
+         "feedback passé",
+         "feedback présent",
+         "feedback futur"
+      ],
+      "increments":[
+         [
+            { "key":"mh" , "value":"1" }
+         ],
+         [
+            { "key":"mh" , "value":"1" }
+         ],
+         [
+            { "key":"mh" , "value":"1" }
+         ]
       ],
       "suites":[
          {

@@ -1,25 +1,38 @@
 {"scene":{
-   "texte":"chapitre 1 question 3",
+   "texte":"je *.",
    "possibilite":{
       "choix":[
-         "réponse 1",
-         "réponse 2",
-         "réponse 3"
+         "grimaçai",
+         "grimace",
+         "grimacerai"
       ],
       "valeur":[
-         "oui",
-         "oui",
-         "oui"
+         "1",
+         "1",
+         "0"
       ],
       "feedback":[
-         "feedback 1",
-         "feedback 2",
-         "feedback 3"
+         "feedback passé",
+         "feedback présent",
+         "feedback futur"
+      ],
+      "increments":[
+         [
+            { "key":"s"  , "value":"1" },
+            { "key":"mh" , "value":"1" }
+         ],
+         [
+            { "key":"s"  , "value":"1" },
+            { "key":"mh" , "value":"1" }
+         ],
+         [
+            { "key":"s"  , "value":"0" }
+         ]
       ],
       "suites":[
          {
             "sceneSuivante":"C2AQ1",
-            "choix":"oui",
+            "choix":"2",
             "scene":[
                "C1Q1",
                "C1Q2",
@@ -27,13 +40,7 @@
             ]
          },
          {
-            "sceneSuivante":"C2BQ1",
-            "choix":"non",
-            "scene":[
-               "C1Q1",
-               "C1Q2",
-               "C1Q3"
-            ]
+            "sceneSuivante":"C2BQ1"
          }
       ]
    }

@@ -1,10 +1,10 @@
 {"scene":{
-   "texte":"chapitre 3 question 2",
+   "texte":"je * ce destin",
    "possibilite":{
       "choix":[
-         "passé",
-         "présent",
-         "futur"
+         "refusai",
+         "refuse",
+         "refuserai"
       ],
       "valeur":[
          "1",

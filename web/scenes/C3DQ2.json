@@ -1,10 +1,10 @@
 {"scene":{
-   "texte":"chapitre 3 question 2",
+   "texte":"elle *.",
    "possibilite":{
       "choix":[
-         "passé",
-         "présent",
-         "futur"
+         "gesticula",
+         "gesticule",
+         "gesticulera"
       ],
       "valeur":[
          "1",

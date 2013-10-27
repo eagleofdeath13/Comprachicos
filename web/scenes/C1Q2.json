@@ -1,20 +1,31 @@
 {"scene":{
-   "texte":"chapitre 1 question 2",
+   "texte":"je la * dans mes bras",
    "possibilite":{
       "choix":[
-         "réponse 1",
-         "réponse 2",
-         "réponse 3"
+         "serrai",
+         "serre",
+         "serrerai"
       ],
       "valeur":[
-         "oui",
-         "oui",
-         "oui"
+         "1",
+         "0",
+         "1"
       ],
       "feedback":[
-         "feedback 1",
-         "feedback 2",
-         "feedback 3"
+         "feedback passé",
+         "feedback présent",
+         "feedback futur"
+      ],
+      "increments":[
+         [
+            { "key":"s" , "value":"1" }
+         ],
+         [
+            { "key":"s" , "value":"0" }
+         ],
+         [
+            { "key":"s" , "value":"1" }
+         ]
       ],
       "suites":[
          {

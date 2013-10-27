@@ -1,20 +1,31 @@
 {"scene":{
-   "texte":"chapitre 1 * question 1",
+   "texte":"il *.",
    "possibilite":{
       "choix":[
-         "réponse 1",
-         "réponse 2",
-         "réponse 3"
+         "négocia",
+         "négocie",
+         "négociera"
       ],
       "valeur":[
-         "oui",
-         "oui",
-         "oui"
+         "1",
+         "1",
+         "0"
       ],
       "feedback":[
-         "feedback 1",
-         "feedback 2",
-         "feedback 3"
+         "feedback passé",
+         "feedback présent",
+         "feedback futur"
+      ],
+      "increments":[
+         [
+            { "key":"s" , "value":"1" }
+         ],
+         [
+            { "key":"s" , "value":"1" }
+         ],
+         [
+            { "key":"s" , "value":"0" }
+         ]
       ],
       "suites":[
          {
