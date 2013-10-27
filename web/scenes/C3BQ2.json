@@ -35,7 +35,9 @@
             ]
          },
          {
-            "sceneSuivante":"C3BFV"
+            "sceneSuivante":"C3BFV",
+            "conditions":[
+            ]
          }
       ]
    }

@@ -95,35 +95,27 @@ incrementValues(Map<String, int> increments){
 String sceneSuivante(){
   print("Début suivante");
   HttpRequest.getString("scenes/"+currentNode+'.json').then((response){
+    String sc;
     JsonObject scene = new JsonObject.fromJsonString(response).scene;
-    bool test = true;
     scene.possibilite.suites.forEach((suite){
       print("pos");
-      if(test == true){
+      if(sc == null){
+        sc=suite.sceneSuivante;
         print("true");
-      try{
+
         //print(suite.conditions);
       suite.conditions.forEach((condition){
         if(storage[condition[0]] < int.parse(condition[1])){
-          test = false;
+          sc = null;
         }
       });
-      }
-      catch(e){
-        print("erreur");
-        print(e);
-        currentNode = suite.sceneSuivante;
-        startNode(suite.sceneSuivante);
-        print(storage["s"]);
-        test = false;
-      };
-      if(test == true){
+
+      if(sc != null){
         currentNode = suite.sceneSuivante;
         print("On a retour");
         print(suite.sceneSuivante);
         startNode(suite.sceneSuivante);
         print(storage["s"]);
-        test = false;
         return suite.sceneSuivante;
       }
       }

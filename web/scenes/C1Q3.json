@@ -37,7 +37,9 @@
             ]
          },
          {
-            "sceneSuivante":"C2BQ1"
+            "sceneSuivante":"C2BQ1",
+            "conditions":[
+            ]
          }
       ]
    }

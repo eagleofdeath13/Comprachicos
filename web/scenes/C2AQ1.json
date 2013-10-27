@@ -29,7 +29,9 @@
       ],
       "suites":[
          {
-            "sceneSuivante":"C2AQ2"
+            "sceneSuivante":"C2AQ2",
+            "conditions":[
+            ]
          }
       ]
    }
