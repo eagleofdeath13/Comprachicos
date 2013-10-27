@@ -8,7 +8,11 @@ String currentNode = "";
 Scene currentScene;
 DivElement mainEl;
 DivElement currentSceneDiv;
+Map storage = new Map();
 void main(){
+  storage["a"]=0;
+  String a="a";
+  print(storage[a]);
   currentNode = "C1Q1";
   window.localStorage.clear;
   initLocalStorage();
@@ -34,6 +38,7 @@ onNextPage(MouseEvent e){
   querySelector("#"+currentNode+"div").remove();
   mainEl.append(de);
   writeFeedbackToBook(currentScene.feedback.elementAt(selectedIndex));
+  
   if(currentScene.scenesSuivantes.length == 1){
     startNode(currentScene.scenesSuivantes[0]);
     currentNode = currentScene.scenesSuivantes[0];
@@ -72,10 +77,17 @@ initLocalStorage(){
   window.localStorage.clear;
   HttpRequest.getString("conf.json").then((response){
       JsonObject jsonRoot = new JsonObject.fromJsonString(response);
+      print("jsonRoot");
+      Map keys = jsonRoot.keys;
+      print(keys);
       jsonRoot.keys.forEach((key){
-        window.localStorage[key] = "0";
+        String str = "a";
+        window.localStorage.str = "0";
+        window.localStorage.keys[key] = "0";
+        print(jsonRoot.keys[0]);
       });
   });
+  print("Local Storage done");
 }
 
 incrementValues(){
