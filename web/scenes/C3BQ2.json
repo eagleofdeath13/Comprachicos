@@ -18,18 +18,24 @@
       ],
       "increments":[
          [
-            { "key":"r" , "value":"2" }
+            [ "r" , "2" ]
          ],
          [
-            { "key":"r" , "value":"2" }
+            [ "r" , "2" ]
          ],
          [
-            { "key":"r" , "value":"0" }
+            [ "r" , "0" ]
          ]
       ],
       "suites":[
          {
-            "sceneSuivante":"*"
+            "sceneSuivante":"L",
+            "conditions":[
+               [ "r" , "5" ]
+            ]
+         },
+         {
+            "sceneSuivante":"V"
          }
       ]
    }

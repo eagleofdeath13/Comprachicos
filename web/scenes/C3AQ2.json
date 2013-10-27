@@ -18,21 +18,27 @@
       ],
       "increments":[
          [
-            { "key":"r" , "value":"2" }
+            [ "r" , "2" ]
          ],
          [
-            { "key":"r" , "value":"2" }
+            [ "r" , "2" ]
          ],
          [
-            { "key":"r" , "value":"0" }
+            [ "r" , "0" ]
          ]
       ],
       "suites":[
          {
-            "sceneSuivante":"L"
+            "sceneSuivante":"L",
+            "conditions":[
+               [ "r" , "5" ]
+            ]
          },
          {
-            "sceneSuivante":"M"
+            "sceneSuivante":"M",
+            "conditions":[
+               [ "s" , "4" ]
+            ]
          },
          {
             "sceneSuivante":"V"

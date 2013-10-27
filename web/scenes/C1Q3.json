@@ -18,22 +18,22 @@
       ],
       "increments":[
          [
-            { "key":"s"  , "value":"1" },
-            { "key":"mh" , "value":"1" }
+            [ "s"  , "1" ],
+            [ "mh" , "1" ]
          ],
          [
-            { "key":"s"  , "value":"1" },
-            { "key":"mh" , "value":"1" }
+            [ "s"  , "1" ],
+            [ "mh" , "1" ]
          ],
          [
-            { "key":"s"  , "value":"0" }
+            [ "s"  , "0" ]
          ]
       ],
       "suites":[
          {
             "sceneSuivante":"C2AQ1",
             "conditions":[
-               { "key":"s" , "value":"2" }
+               [ "s" , "2" ]
             ]
          },
          {

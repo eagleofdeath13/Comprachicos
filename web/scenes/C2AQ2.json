@@ -18,13 +18,13 @@
       ],
       "increments":[
          [
-            { "key":"mh" , "value":"1" }
+            [ "mh" , "1" ]
          ],
          [
-            { "key":"mh" , "value":"1" }
+            [ "mh" , "1" ]
          ],
          [
-            { "key":"mh" , "value":"0" }
+            [ "mh" , "0" ]
          ]
       ],
       "suites":[
