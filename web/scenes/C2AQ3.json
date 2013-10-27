@@ -1,5 +1,5 @@
 {"scene":{
-   "texte":"je *.",
+   "texte":"<p>Les jours passent.</p><p>Je finis par remarquer un petit tesson de poterie dans un coin de l'enclos.</p><p>Un reste d'une jarre dans laquelle on dit qu'ont été enfermés d'autres enfants.</p><p class='nort'>Je </p><p class='nort'> * </p><p class='nort'>l'objet</p>",
    "possibilite":{
       "choix":[
          "ramassai",
@@ -12,9 +12,9 @@
          "0"
       ],
       "feedback":[
-         "feedback passé",
-         "feedback présent",
-         "feedback futur"
+         "<p>Je glisse le petit morceau de terre cuite dans ma poche.</p><p>J'ai le sentiment qu'il me sera utile tôt ou tard.</p><p>Le Marchand fait son entrée dans l'enclos.</p><p>Il me fixe avant de m'annoncer laconiquement que mon grand jour est arrivé.</p>",
+         "<p>C'est ce moment précis que choisit le Marchand pour faire son entrée.</p><p>Il me voit tendre le bras vers le tesson.</p><p>Il me regarda avec une moue dubitative et se contenta de donner un coup de pied nonchalant dans le morceau de poterie.</p><p>Ce dernier vola hors de l'enclos,</p><p>hors de mon atteinte.</p><p>Ce si petit bout de chose représentait tant d'espoir.</p><p>Un talisman sacré comme me l'avait appris ma famille tzigane.</p><p>Le Marchand me fixe et m'annonce laconiquement que mon grand jour est arrivé.</p>",
+         "<p>C'est ce moment précis que choisit le Marchand pour faire son entrée.</p><p>Il me voit tendre le bras vers le tesson.</p><p>Il me regarda avec une moue dubitative et se contenta de donner un coup de pied nonchalant dans le morceau de poterie.</p><p>Ce dernier vola hors de l'enclos,</p><p>hors de mon atteinte.</p><p>Ce si petit bout de chose représentait tant d'espoir.</p><p>Un talisman sacré comme me l'avait appris ma famille tzigane.</p><p>Le Marchand me fixe et m'annonce laconiquement que mon grand jour est arrivé.</p>"
       ],
       "increments":[
          [

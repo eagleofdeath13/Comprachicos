@@ -1,5 +1,5 @@
 {"scene":{
-   "texte":"me * dans la cage",
+   "texte":"<p>Le fiacre ralentit avant de se stopper net.</p><p>J'entends le ronflement des chevaux.</p><p>Le cochet descend et ouvre la porte du fiacre.</p><p>La flatterie me gagne pendant quelques secondes ;</p><p>juste avant que le Marchand m'ordonne de monter une cage montée sur roulette, amenée pour l'occasion.</p><p>Dans un petit rire pincé,</p><p>il m'annonce que mon carrosse est avancé.</p><p>J'entends un cri venant du bâtiment derrière moi,</p><p>mais la cage est trop petite pour me permettre de me retourner.</p><p>Les roues de la cage rebondissent sur les pavés dans ce qui, un autre jour,</p><p>aurait pu être une douce berceuse.</p><p>Nous dépassons une roulotte dont la façade a été décorée plus avec ostentation qu'avec goût.</p><p>Le Marchand me pousse jusque dans un vieux bâtiment décrépi,</p><p>une ancienne écurie qui a conservé l'odeur de ses grands jours.</p><p>Le Marchand m'installe dans un enclos,</p><p>meublé de quelques fétus de paille.</p><p>En comparaison,</p><p>le taudis de mon Oncle me paraissait bien plus confortable.</p><p>La compagnie ne se fit pas attendre.</p><p>Un autre enfant,</p><p class='nort'>un peu plus jeune, me</p><p class='nort'> * </p><p class='nort'>dans ma prison improvisée avec un seul mot à la bouche : </p><p>Comprachico.</p>",
    "possibilite":{
       "choix":[
          "rejoignit",
@@ -12,9 +12,9 @@
          "1"
       ],
       "feedback":[
-         "feedback passé",
-         "feedback présent",
-         "feedback futur"
+         "<p>À force de marmonner Comprachico,<p><p>je décide de l'appeler Chico.</p><p>Le Marchand vient le chercher en premier.</p><p>Il lui fait une promesse, celle de faire cet enfant le plus beau de ses chefs-d'œuvre.</p><p>S'en suivent plusieurs jours de long silence.</p><p>Je ne revois plus cet enfant.</p><p>Un soir, à moitié endormi,</p><p>j'aperçois le Marchand le portant jusqu'à un autre enclos. </p><p>Ses jambes semblent flotter dans le vide,</p><p>molles comme du pain qui serait resté trop longtemps dans de l'eau.</p><p>Je compris que bien après,</p><p>il ferait un parfait pantin de chair et d'os pour de futures soirées de la bonne société.</p>",
+         "<p>À force de marmonner Comprachico,</p><p>je décide de l'appeler Chico.</p><p>Le Marchand vient le chercher en premier.</p><p>Il lui fait une promesse, celle de faire cet enfant le plus beau de ses chefs-d'œuvre.</p><p>S'en suivent plusieurs jours de long silence.</p><p>Je ne revois plus cet enfant.</p><p>Un soir, à moitié endormi,</p><p>j'aperçois le Marchand le portant jusqu'à un autre enclos. </p><p>Ses jambes semblent flotter dans le vide,</p><p>comme du pain qui serait resté trop longtemps dans de l'eau.</p><p>Je compris que bien après,</p><p>il ferait un parfait pantin de chair et d'os pour de futures soirées de la bonne société.</p>",
+         "<p>Le matin suivant,</p><p>le Marchand vient me voir.</p><p>Le Marchand me promet de faire de moi le plus beau de ses chefs-d'œuvre</p><p>et fait entrer mon nouveau camarade d'infortune dans l'enclos.</p><p>L'autre enfant n'arrête pas de murmurer le nom du mal. Comprachico,</p><p>Comprachico,</p><p>Comprachico.</p><p>Je décide de l'appeler Chico,</p><p>d'après le seul son qu'il semble encore capable de produire.</p>"
       ],
       "increments":[
          [

@@ -1,5 +1,5 @@
 {"scene":{
-   "texte":"il *.",
+   "texte":"<p>Dans les jours qui suivirent,</p><p>un homme en redingote vint nous visiter.</p><p>Une grande occasion,</p><p class='nort'>le Marchand</p><p class='nort'> * </p><p class='nort'>une commande importante.</p>",
    "possibilite":{
       "choix":[
          "reçu",
@@ -12,9 +12,9 @@
          "0"
       ],
       "feedback":[
-         "feedback passé",
-         "feedback présent",
-         "feedback futur"
+         "<p>Au départ de l'homme en redingote,</p><p>le Marchand me rejoint dans mon enclos.</p><p>Il avait reçu une demande très spéciale.</p><p>Il pose sur moi le même regard amusé que lorsque je lui avais adressé ma grimace.</p><p>Plaçons un sourire sur ce visage si triste, me dit-il.</p><p>Pourquoi être aussi sérieux ?</p><p>Il me donne une dose d'une poudre qu'il disait tour à tour stupéfiante ou magique.</p><p>Je ne me souviens pas de ce qui s'est passé ensuite.</p><p>La seule chose dont je suis sûr c'est que j'ai désormais un sourire gravé sur mon visage,</p><p>mais je ne suis pas plus heureux pour autant.</p>",
+         "<p>Au départ de l'homme en redingote,</p><p>le Marchand me rejoint dans mon enclos.</p><p>Il avait reçu une demande très spéciale.</p><p>Il pose sur moi le même regard amusé que lorsque je lui avais adressé ma grimace.</p><p>Plaçons un sourire sur ce visage si triste, me dit-il.</p><p>Pourquoi être aussi sérieux ?</p><p>Il me donne une dose d'une poudre qu'il disait tour à tour stupéfiante ou magique.</p><p>Je ne me souviens pas de ce qui s'est passé ensuite.</p><p>La seule chose dont je suis sûr c'est que j'ai désormais un sourire gravé sur mon visage,</p><p>mais je ne suis pas plus heureux pour autant.</p>",
+         "<p>Au départ de l'homme en redingote,</p><p>le Marchand s'énerva et pesta comme je ne l'avais jamais vu.</p><p>Il ne recevrait la commande promise que bien plus tard.</p><p>Parmi les choses qu'il aimait le moins,</p><p>après le travail mal fait,</p><p>venait l'indécision des clients.</p><p>Le marchand se plaignait du cheptel à entretenir,</p><p>un mot que je ne comprenais pas bien.</p>"
       ],
       "increments":[
          [
