@@ -96,17 +96,26 @@ String sceneSuivante(){
   print("Début suivante");
   HttpRequest.getString("scenes/"+currentNode+'.json').then((response){
     JsonObject scene = new JsonObject.fromJsonString(response).scene;
+    bool test = true;
     scene.possibilite.suites.forEach((suite){
-      bool test = true;
+      print("pos");
+      if(test == true){
+        print("true");
       try{
+        //print(suite.conditions);
       suite.conditions.forEach((condition){
-        if(storage[condition[0]]< condition[1]){
+        if(storage[condition[0]] < int.parse(condition[1])){
           test = false;
         }
       });
       }
       catch(e){
-        print("Bug at catch");
+        print("erreur");
+        print(e);
+        currentNode = suite.sceneSuivante;
+        startNode(suite.sceneSuivante);
+        print(storage["s"]);
+        test = false;
       };
       if(test == true){
         currentNode = suite.sceneSuivante;
@@ -114,7 +123,9 @@ String sceneSuivante(){
         print(suite.sceneSuivante);
         startNode(suite.sceneSuivante);
         print(storage["s"]);
+        test = false;
         return suite.sceneSuivante;
+      }
       }
     });
     //writeSceneToBook(currentScene);
