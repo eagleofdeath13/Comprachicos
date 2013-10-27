@@ -58,6 +58,7 @@ writeSceneToBook(Scene scene){
   DivElement sceneDiv = new DivElement();
   currentSceneDiv = sceneDiv;
   sceneDiv.classes.add("wrap");
+  sceneDiv.classes.add("question");
   sceneDiv.id = currentNode+"div";
   List<String> textParts = scene.text.split("*");
   sceneDiv.appendHtml(textParts.elementAt(0));
@@ -69,6 +70,7 @@ writeSceneToBook(Scene scene){
     oe.text = s;
     se.append(oe);
   });
+  se.classes.add("nort");
   sceneDiv.append(se);
   sceneDiv.appendHtml(textParts.elementAt(1));
   mainEl.append(sceneDiv);

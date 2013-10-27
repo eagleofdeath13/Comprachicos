@@ -1,5 +1,5 @@
 {"scene":{
-   "texte":"<p>L’air froid et humide de novembre s’infiltre entre les briques de ce qui nous sert de foyer.</p><p>Je regarde Esma qui grelotte, les larmes aux yeux.</p><p class='nort'>Je la</p><p class='nort'>*</p><p class='nort'>dans mes bras.</p>",
+   "texte":"<p>L’air froid et humide de novembre s’infiltre entre les briques de ce qui nous sert de foyer.</p><p>Je regarde Esma qui grelotte, les larmes aux yeux.</p><p class='nort'>Je la&nbsp;</p>*<p class='nort'>&nbsp;dans mes bras.</p>",
    "possibilite":{
       "choix":[
          "serrai",
