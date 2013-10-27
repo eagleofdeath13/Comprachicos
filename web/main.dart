@@ -9,6 +9,7 @@ Scene currentScene;
 DivElement mainEl;
 DivElement currentSceneDiv;
 Map<String,int> storage = new Map<String,int>();
+String currentJson = "";
 void main(){
   storage["s"]=0;
   storage["mh"]=0;
@@ -24,6 +25,7 @@ startNode(String nodeNumber){
   print("startNode");
   print(nodeNumber);
   HttpRequest.getString("scenes/"+nodeNumber+'.json').then((response){
+    currentJson = response;
     currentScene = Utils.jsonObjectToScene(response);
     writeSceneToBook(currentScene);
   });
@@ -43,7 +45,7 @@ onNextPage(MouseEvent e){
   print("SceneSuivante");
   print(str);
   print("toto");
-  startNode(str);
+  //startNode(str);
 
 
   /*if(currentScene.scenesSuivantes.length == 1){
@@ -110,10 +112,12 @@ String sceneSuivante(){
         currentNode = suite.sceneSuivante;
         print("On a retour");
         print(suite.sceneSuivante);
+        startNode(suite.sceneSuivante);
+        print(storage["s"]);
         return suite.sceneSuivante;
       }
     });
-    writeSceneToBook(currentScene);
+    //writeSceneToBook(currentScene);
 
   });
 }
