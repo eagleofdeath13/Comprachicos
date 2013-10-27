@@ -18,45 +18,34 @@
       ],
       "increments":[
          [
-            { "key":"mh" , "value":"1" },
-            { "key":"mp" , "value":"0" }
+            [ "mh" , "1" ],
+            [ "mp" , "0" ]
          ],
          [
-            { "key":"mh" , "value":"1" },
-            { "key":"mp" , "value":"0" }
+            [ "mh" , "1" ],
+            [ "mp" , "0" ]
          ],
          [
-            { "key":"mh" , "value":"0" },
-            { "key":"mp" , "value":"1" }
+            [ "mh" , "0" ],
+            [ "mp" , "1" ]
          ]
       ],
       "suites":[
          {
             "sceneSuivante":"C3EQ1",
-            "choix":"1",
-            "scene":[
-               "C2BQ1",
-               "C2BQ2",
-               "C2BQ3"
+            "conditions":[
+               [ "mh" , "2" ],
+               [ "mp" , "1" ]
             ]
          },
          {
             "sceneSuivante":"C3DQ1",
-            "choix":"non",
-            "scene":[
-               "C2BQ1",
-               "C2BQ2",
-               "C2BQ3"
+            "conditions":[
+               [ "mp" , "1" ]
             ]
          },
          {
-            "sceneSuivante":"C3CQ1",
-            "choix":"non",
-            "scene":[
-               "C2BQ1",
-               "C2BQ2",
-               "C2BQ3"
-            ]
+            "sceneSuivante":"C3CQ1"
          }
       ]
    }
