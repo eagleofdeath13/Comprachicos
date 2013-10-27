@@ -1,0 +1,25 @@
+{"scene":{
+   "texte":"chapitre 3 question 2",
+   "possibilite":{
+      "choix":[
+         "refusai",
+         "refuse",
+         "refuserai"
+      ],
+      "valeur":[
+         "1",
+         "1",
+         "1"
+      ],
+      "feedback":[
+         "feedback passé",
+         "feedback présent",
+         "feedback futur"
+      ],
+      "suites":[
+         {
+            "sceneSuivante":"*"
+         }
+      ]
+   }
+}}
