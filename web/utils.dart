@@ -9,6 +9,7 @@ class Utils {
     List<String> valeur = new List<String>();
     List<String> feedback = new List<String>();
     List<String> scenesSuivantes = new List<String>();
+    List<Map<String,int>> increments = new List();
     choix.add(jsonRoot.scene.possibilite.choix[0]);
     choix.add(jsonRoot.scene.possibilite.choix[1]);
     choix.add(jsonRoot.scene.possibilite.choix[2]);
@@ -21,6 +22,14 @@ class Utils {
     jsonRoot.scene.possibilite.suites.forEach((a){
       scenesSuivantes.add(a.sceneSuivante);
     });
-    return new Scene(jsonRoot.scene.texte,choix,valeur,feedback,scenesSuivantes);
+    jsonRoot.scene.possibilite.increments.forEach((a){
+      //increments
+      Map<String,int> increment = new Map<String,int>();
+      a.forEach((b){
+        increment[b[0]] = int.parse(b[1]);
+      });
+      increments.add(increment);
+    });
+    return new Scene(jsonRoot.scene.texte,choix,valeur,feedback,scenesSuivantes,increments);
   }
 }

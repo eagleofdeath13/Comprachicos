@@ -8,20 +8,21 @@ String currentNode = "";
 Scene currentScene;
 DivElement mainEl;
 DivElement currentSceneDiv;
-Map storage = new Map();
+Map<String,int> storage = new Map<String,int>();
 void main(){
-  storage["a"]=0;
-  String a="a";
-  print(storage[a]);
+  storage["s"]=0;
+  storage["mh"]=0;
+  storage["mp"]=0;
+  storage["r"]=0;
   currentNode = "C1Q1";
-  window.localStorage.clear;
-  initLocalStorage();
   mainEl = querySelector("#sample_container_id");
   startNode(currentNode);
   ButtonElement b = querySelector("#nextPageButton");
   b.onClick.listen(onNextPage);
-}//*/
+}
 startNode(String nodeNumber){
+  print("startNode");
+  print(nodeNumber);
   HttpRequest.getString("scenes/"+nodeNumber+'.json').then((response){
     currentScene = Utils.jsonObjectToScene(response);
     writeSceneToBook(currentScene);
@@ -30,7 +31,7 @@ startNode(String nodeNumber){
 onNextPage(MouseEvent e){
   SelectElement se = querySelector("#conjugaison");
   int selectedIndex = se.selectedIndex;
-  window.localStorage[currentNode] = se.item(selectedIndex).value;
+  incrementValues(currentScene.increments.elementAt(selectedIndex));
   DivElement de = new DivElement();
   de.classes.add("wrap");
   de.appendHtml(currentScene.text.replaceAll("*",se.item(selectedIndex).text));
@@ -38,16 +39,21 @@ onNextPage(MouseEvent e){
   querySelector("#"+currentNode+"div").remove();
   mainEl.append(de);
   writeFeedbackToBook(currentScene.feedback.elementAt(selectedIndex));
-  
-  if(currentScene.scenesSuivantes.length == 1){
+  String str = sceneSuivante();
+  print("SceneSuivante");
+  print(str);
+  print("toto");
+  startNode(str);
+
+
+  /*if(currentScene.scenesSuivantes.length == 1){
     startNode(currentScene.scenesSuivantes[0]);
     currentNode = currentScene.scenesSuivantes[0];
-  }
+  }*/
 }
 
 writeSceneToBook(Scene scene){
   DivElement sceneDiv = new DivElement();
-  //sceneDiv.classes
   currentSceneDiv = sceneDiv;
   sceneDiv.classes.add("wrap");
   sceneDiv.id = currentNode+"div";
@@ -69,34 +75,45 @@ writeSceneToBook(Scene scene){
 writeFeedbackToBook(String feedback){
   DivElement feedbackDiv = new DivElement();
   feedbackDiv.classes.add("wrap");
+  feedbackDiv.classes.add("feedback");
   feedbackDiv.appendHtml(feedback);
   mainEl.append(feedbackDiv);
 }
 
-initLocalStorage(){
-  window.localStorage.clear;
-  HttpRequest.getString("conf.json").then((response){
-      JsonObject jsonRoot = new JsonObject.fromJsonString(response);
-      print("jsonRoot");
-      Map keys = jsonRoot.keys;
-      print(keys);
-      jsonRoot.keys.forEach((key){
-        String str = "a";
-        window.localStorage.str = "0";
-        window.localStorage.keys[key] = "0";
-        print(jsonRoot.keys[0]);
-      });
+incrementValues(Map<String, int> increments){
+  print(increments);
+  print(increments.keys);
+  increments.keys.forEach((a){
+    print("foreach");
+    print(a);
+    storage[a] += increments[a];
   });
-  print("Local Storage done");
 }
 
-incrementValues(){
-  JsonObject jsonRoot = new JsonObject.fromJsonString('{"increments":[[{"key":"MH","value":"1"},{"key":"MP","value":"2"},{"key":"MM","value":"1"}],[{"key":"MH","value":"1"},{"key":"MP","value":"2"},{"key":"MM","value":"1"}],[{"key":"MH","value":"1"},{"key":"MP","value":"2"},{"key":"MM","value":"1"}]]}');
-  jsonRoot.increments[0].forEach((keyValuePair){
-    StringBuffer sb = new StringBuffer();
-    sb.write(int.parse(window.localStorage[keyValuePair.key]) + int.parse(keyValuePair.value));
-    window.localStorage[keyValuePair.key] = sb.toString();
-    print("Stored value");
-    print(window.localStorage[keyValuePair.key]);
+String sceneSuivante(){
+  print("Début suivante");
+  HttpRequest.getString("scenes/"+currentNode+'.json').then((response){
+    JsonObject scene = new JsonObject.fromJsonString(response).scene;
+    scene.possibilite.suites.forEach((suite){
+      bool test = true;
+      try{
+      suite.conditions.forEach((condition){
+        if(storage[condition[0]]< condition[1]){
+          test = false;
+        }
+      });
+      }
+      catch(e){
+        print("Bug at catch");
+      };
+      if(test == true){
+        currentNode = suite.sceneSuivante;
+        print("On a retour");
+        print(suite.sceneSuivante);
+        return suite.sceneSuivante;
+      }
+    });
+    writeSceneToBook(currentScene);
+
   });
 }
