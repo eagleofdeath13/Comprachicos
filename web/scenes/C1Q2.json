@@ -1,5 +1,5 @@
 {"scene":{
-   "texte":"je la * dans mes bras",
+   "texte":"<p>Il fait froid et l'air est humide dans ce qui nous sert de foyer.</p><p>Je regarde Esma qui grelotte.</p><p>Elle a les larmes aux yeux.</p><p>Je la * dans mes bras.</p><p> <br></p>",
    "possibilite":{
       "choix":[
          "serrai",
@@ -12,9 +12,9 @@
          "1"
       ],
       "feedback":[
-         "feedback passé",
-         "feedback présent",
-         "feedback futur"
+         "<p>L'Oncle nous sépare et me pousse vers le Marchand.</p><p>Le grand homme au chapeau sort une bourse et la tend à l'Oncle.</p><p>J'entends le tintement des pièces qui se frottent les unes aux autres.</p><p>Je regarde mon Oncle qui détourne le visage.</p><p> <br></p>",
+         "<p>L'Oncle nous pousse doucement vers le Marchand.</p><p>Le grand homme au chapeau soupire et capitule.</p><p>Il sort une bourse et la tend à l'Oncle.</p><p>J'entends le tintement des pièces qui se frottent les unes aux autres.</p><p> Je regarde mon Oncle qui détourne le visage pour tomber sur le regard plein de stupeur d'Esma.</p><p> <br></p>",
+         "<p>L'Oncle nous sépare et me pousse vers le Marchand.</p><p>Le grand homme au chapeau sort une bourse et la tend à l'Oncle.</p><p>J'entends le tintement des pièces qui se frottent les unes aux autres.</p><p>Je regarde mon oncle qui détourne le visage.</p><p> <br></p>"
       ],
       "increments":[
          [

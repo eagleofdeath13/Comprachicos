@@ -1,5 +1,5 @@
 {"scene":{
-   "texte":"je *.",
+   "texte":"<p>Le Marchand nous regarde tour à tour et pose enfin ses yeux plein de malice sur moi.</p><p>Je * en retour.</p><p> <br></p>",
    "possibilite":{
       "choix":[
          "grimaçai",
@@ -12,9 +12,9 @@
          "0"
       ],
       "feedback":[
-         "feedback passé",
-         "feedback présent",
-         "feedback futur"
+         "<p>Je sers au marchand ma plus belle grimace.</p><p>Loin de le décontenancer, il me sourit.</p><p>Il avait des plans pour moi.  Des plans pour cette grimace en particulier.</p><p>Le Marchand me pousse dehors.</p><p>Un fiacre nous attendait.</p><p>Un sentiment d'excitation se mêlait à la terreur,</p><p>je n'étais jamais encore monté dans un fiacre.</p><p>Le Marchand ordonne au cocher de rejoindre son Atelier.</p><p>Par la fenêtre, je jette un dernier regard à ce qui fut mon foyer,</p><p>mais mon oncle a déjà refermé la porte.</p><p> <br></p>",
+         "<p>Je sers au marchand ma plus belle grimace.</p><p>Loin de le décontenancer, il me sourit.</p><p>Il avait des plans pour moi.  Des plans pour cette grimace en particulier.</p><p>Le Marchand me pousse dehors.</p><p>Un fiacre nous attendait.</p><p>Un sentiment d'excitation se mêlait à la terreur,</p><p>je n'étais jamais encore monté dans un fiacre.</p><p>Le Marchand ordonne au cocher de rejoindre son Atelier.</p><p>Par la fenêtre, je jette un dernier regard à ce qui fut mon foyer,</p><p>mais mon oncle a déjà refermé la porte.</p><p> <br></p>",
+         "<p>Avant que je n'ai eu le temps de lui renvoyer ma plus belle grimace,</p><p>le Marchand me pousse dehors.</p><p>Un fiacre nous attendait.</p><p>Un sentiment d'excitation se mêlait à la terreur,</p><p>je n'étais jamais encore monté dans un fiacre.</p><p>Le Marchand ordonne au cocher de rejoindre son Atelier.</p><p>Par la fenêtre, je jette un dernier regard à ce qui fut mon foyer,</p><p>mais mon oncle a déjà refermé la porte.</p><p> <br></p>"
       ],
       "increments":[
          [
@@ -32,11 +32,8 @@
       "suites":[
          {
             "sceneSuivante":"C2AQ1",
-            "choix":"2",
-            "scene":[
-               "C1Q1",
-               "C1Q2",
-               "C1Q3"
+            "conditions":[
+               { "key":"s"  , "value":"2" }
             ]
          },
          {
