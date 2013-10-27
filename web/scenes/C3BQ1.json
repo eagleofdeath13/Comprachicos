@@ -1,5 +1,5 @@
 {"scene":{
-   "texte":"il * son choix",
+   "texte":"<p>Un nouveau voyage vers l’inconnu.</p><p>Je me cramponne à l’assise du fiacre.</p><p>Le Marchand me fixe avec un regard dur.</p><p>Il ne semble pas satisfait et tripote nerveusement le bout de sa moustache.</p><p>Chico, l’enfant aux membres atrophiés est là aussi.</p><p>Brusquement, la carriole s’arrête.</p><p>Nous sommes arrivés à notre rendez-vous. À mon rendez-vous.</p><p>L’homme à la redingote est là. Je comprends que la vente avait été fixée.</p><p>Très vite, la discussion tourne court,</p><p>je ne plais pas à l’homme à la redingote.</p><p>Il ne veut pas d’un enfant normal. Il en a plein, parait-il.</p><p>Le Marchand se retourne vers moi.</p><p class='nort'>Il</p><p class='nort'> * </p><p class='nort'>le jour il m’a acheté à mon Oncle.</p>",
    "possibilite":{
       "choix":[
          "regretta",
@@ -12,9 +12,9 @@
          "2"
       ],
       "feedback":[
-         "feedback passé",
-         "feedback présent",
-         "feedback futur"
+         "<p>Le regret le taraude et le gagne à vue d’œil.</p><p>Je savais reconnaître le dégoût et la déception.</p><p>Mon Oncle avait déjà posé ce regard à de nombreuses reprises sur moi ou ma sœur, Esma.</p><p>La discussion reprit de plus belle avec l’homme en redingote.</p>",
+         "<p>Le regret le taraude et le gagne à vue d’œil.</p><p>Je savais reconnaître le dégoût et la déception.</p><p>Mon Oncle avait déjà posé ce regard à de nombreuses reprises sur moi ou ma sœur, Esma.</p><p>La discussion reprit de plus belle avec l’homme en redingote.</p>",
+         "<p>Le Marchand me fixe.</p><p>Il finit par me sourire, se disant qu’il aurait tout le temps de regretter son achat plus tard.</p><p>Pour le moment, je pouvais sûrement encore lui servir de canevas pour les pires désirs de l’âme de ses riches clients.</p>"
       ],
       "increments":[
          [

@@ -1,5 +1,5 @@
 {"scene":{
-   "texte":"je * ce destin",
+   "texte":"<p>Ils me tournent le dos.</p><p>Je sens que c’est ma chance.</p><p class='nort'>Je</p><p class='nort'> * </p><p class='nort'>de terminer ma vie comme un bouffon ou une curiosité difforme.</p>",
    "possibilite":{
       "choix":[
          "refusai",
@@ -12,9 +12,9 @@
          "0"
       ],
       "feedback":[
-         "feedback passé",
-         "feedback présent",
-         "feedback futur"
+         "<p>Le Marchand se retourne vers moi.<p><p>Ce qu’il voit dans mon regard ne semble pas lui plaire.</p><p>Il me tire par le bras pour m’amener auprès de l’homme à la redingote.</p><p>La vente semble être signée.</p>",
+         "<p>Le Marchand se retourne vers moi.</p><p>Ce qu’il voit dans mon regard ne semble pas lui plaire.</p><p>Il me tire par le bras pour m’amener auprès de l’homme à la redingote.</p><p>La vente semble être signée.</p>",
+         "<p>Le Marchand se retourne vers moi et me voit hésitant.</p><p>Il m’adresse un sourire d’une rare douceur, un sourire qui se veut rassurant.</p><p>On ne m’avait jamais souri comme ça,</p><p>il y avait quelque chose de bon chez cet homme qui mutilait des enfants pour vivre.</p><p>Il me tend la main pour que je le rejoigne.</p><p>La vente semble être signée.</p>"
       ],
       "increments":[
          [

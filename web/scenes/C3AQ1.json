@@ -1,5 +1,5 @@
 {"scene":{
-   "texte":"il * .",
+   "texte":"<p>Mon visage est encore douloureux.</p><p>Le Marchand me tape sur les doigts avec sa baguette à chaque fois que je porte les mains à ma bouche.</p><p>Le travail n’est pas encore tout à fait achevé selon lui.</p><p>Je dois avoir ce regard étrange que j’ai depuis quelques jours,</p><p>car il me sourit et va chercher sa petite sacoche de poudre magique.</p><p>Il m’en donne une pincée comme il le fait à chaque fois que mes mains commencent à trembler.</p><p>Le fiacre s’arrête. Nous sommes arrivés à notre rendez-vous. À mon rendez-vous.</p> <p>L’homme à la redingote nous attend près de son propre fiacre,</p><p>garé devant une jolie bâtisse.</p><p>Peut-être la plus grande que je n’ai jamais vue.</p><p class='nort'>Il</p><p class='nort'> *<p/><p class='nort'>le travail du Comprachico.</p>",
    "possibilite":{
       "choix":[
          "apprécia",
@@ -12,9 +12,9 @@
          "2"
       ],
       "feedback":[
-         "feedback passé",
-         "feedback présent",
-         "feedback futur"
+         "<p>Je vois l’homme à la redingote esquisser un franc sourire. </p><p>Je lui plais. Je grimace, il rigole.</p><p>Le Marchand applaudit, ravi. </p><p>Les deux hommes se rapprochent et commencent à converser à voix basse.</p>",
+         "<p>Je vois l’homme à la redingote esquisser un franc sourire.</p><p>Je lui plais. Je grimace, il rigole.</p><p>Le Marchand applaudit, ravi. </p><p>Les deux hommes se rapprochent et commencent à converser à voix basse.</p>",
+         "<p>L’homme à la redingote grimaçait.</p><p>Visiblement, je n’étais pas tout à fait ce qu’il attendait.</p><p>Après mûre réflexion et en bon gentilhomme, il me dit qu’avec le temps,</p><p>il apprécierait toute la subtilité du travail qui m’avait été apporté.</p><p>Les deux hommes se rapprochent et commencent à converser à voix basse.</p>"
       ],
       "increments":[
          [
