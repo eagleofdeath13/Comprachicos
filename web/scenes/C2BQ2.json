@@ -7,9 +7,9 @@
          "interposerai"
       ],
       "valeur":[
-         "1",
-         "1",
-         "1"
+         "0",
+         "0",
+         "0"
       ],
       "feedback":[
          "feedback passé",
@@ -18,15 +18,15 @@
       ],
       "increments":[
          [
-            { "key":"mp" , "value":"1" },
-            { "key":"mp" , "value":"1" }
+            { "key":"mh" , "value":"1" },
+            { "key":"mp" , "value":"0" }
          ],
          [
-            { "key":"mp" , "value":"1" },
-            { "key":"mp" , "value":"1" }
+            { "key":"mh" , "value":"1" },
+            { "key":"mp" , "value":"0" }
          ],
          [
-            { "key":"mp" , "value":"1" },
+            { "key":"mh" , "value":"0" },
             { "key":"mp" , "value":"1" }
          ]
       ],

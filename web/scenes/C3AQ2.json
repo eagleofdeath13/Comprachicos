@@ -7,18 +7,35 @@
          "refuserai"
       ],
       "valeur":[
-         "1",
-         "1",
-         "1"
+         "2",
+         "2",
+         "0"
       ],
       "feedback":[
          "feedback passé",
          "feedback présent",
          "feedback futur"
       ],
+      "increments":[
+         [
+            { "key":"r" , "value":"2" }
+         ],
+         [
+            { "key":"r" , "value":"2" }
+         ],
+         [
+            { "key":"r" , "value":"0" }
+         ]
+      ],
       "suites":[
          {
-            "sceneSuivante":"*"
+            "sceneSuivante":"L"
+         },
+         {
+            "sceneSuivante":"M"
+         },
+         {
+            "sceneSuivante":"V"
          }
       ]
    }
