@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'SabonLTStdItalic';
+    src: url('sabonltstd-italic.eot');
+    src: url('sabonltstd-italic.eot') format('embedded-opentype'),
+         url('sabonltstd-italic.woff') format('woff'),
+         url('sabonltstd-italic.ttf') format('truetype'),
+         url('sabonltstd-italic.svg#SabonLTStdItalic') format('svg');
+}
