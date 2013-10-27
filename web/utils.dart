@@ -8,6 +8,7 @@ class Utils {
     List<String> choix = new List<String>();
     List<String> valeur = new List<String>();
     List<String> feedback = new List<String>();
+    List<String> scenesSuivantes = new List<String>();
     choix.add(jsonRoot.scene.possibilite.choix[0]);
     choix.add(jsonRoot.scene.possibilite.choix[1]);
     choix.add(jsonRoot.scene.possibilite.choix[2]);
@@ -17,6 +18,10 @@ class Utils {
     feedback.add(jsonRoot.scene.possibilite.feedback[0]);
     feedback.add(jsonRoot.scene.possibilite.feedback[1]);
     feedback.add(jsonRoot.scene.possibilite.feedback[2]);
-    return new Scene(jsonRoot.scene.texte,choix,valeur,feedback);
+    jsonRoot.scene.possibilite.suites.forEach((a){
+      scenesSuivantes.add(a.sceneSuivante);
+    });
+    print(scenesSuivantes);
+    return new Scene(jsonRoot.scene.texte,choix,valeur,feedback,scenesSuivantes);
   }
 }

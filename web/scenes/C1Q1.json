@@ -1,5 +1,5 @@
 {"scene":{
-   "texte":"chapitre 1 * question 1",
+   "texte":"chapitre 1 * question 1 ",
    "possibilite":{
       "choix":[
          "réponse 1",
@@ -20,6 +20,19 @@
          {
             "sceneSuivante":"C1Q2"
          }
-      ]
+      ],
+      "valeurs":[
+           {
+               "mh":"1",
+               "mp":"1"
+           },
+           {
+               "mh":"0",
+               "mp":"2"
+           },{
+               "mh":"2",
+               "mp":"1"
+           }
+       ]
    }
 }}

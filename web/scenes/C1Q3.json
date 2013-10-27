@@ -1,5 +1,5 @@
 {"scene":{
-   "texte":"chapitre 1 question 3",
+   "texte":"chapitre 1 * question 3",
    "possibilite":{
       "choix":[
          "réponse 1",
