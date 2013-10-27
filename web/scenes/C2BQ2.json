@@ -33,30 +33,19 @@
       "suites":[
          {
             "sceneSuivante":"C3EQ1",
-            "choix":"1",
-            "scene":[
-               "C2BQ1",
-               "C2BQ2",
-               "C2BQ3"
+            "conditions":[
+               { "key":"mh" , "value":"2" },
+               { "key":"mp" , "value":"1" }
             ]
          },
          {
             "sceneSuivante":"C3DQ1",
-            "choix":"non",
-            "scene":[
-               "C2BQ1",
-               "C2BQ2",
-               "C2BQ3"
+            "conditions":[
+               { "key":"mp" , "value":"1" }
             ]
          },
          {
-            "sceneSuivante":"C3CQ1",
-            "choix":"non",
-            "scene":[
-               "C2BQ1",
-               "C2BQ2",
-               "C2BQ3"
-            ]
+            "sceneSuivante":"C3CQ1"
          }
       ]
    }

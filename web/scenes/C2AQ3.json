@@ -30,21 +30,12 @@
       "suites":[
          {
             "sceneSuivante":"C3AQ1",
-            "choix":"2",
-            "scene":[
-               "C2AQ1",
-               "C2AQ2",
-               "C2AQ3"
+            "conditions":[
+               { "key":"mh" , "value":"2" }
             ]
          },
          {
-            "sceneSuivante":"C3BQ1",
-            "choix":"non",
-            "scene":[
-               "C2AQ1",
-               "C2AQ2",
-               "C2AQ3"
-            ]
+            "sceneSuivante":"C3BQ1"
          }
       ]
    }
