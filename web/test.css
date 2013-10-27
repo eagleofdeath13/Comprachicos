@@ -1,4 +1,4 @@
-@charset "UTF-8";
+/*@charset "UTF-8";
 
 @font-face {
     font-family: 'SabonLTStd-Italic';
@@ -7,7 +7,7 @@
           url('font/SabonLTStd-Italic/sabonltstd-italic.woff') format('woff'),
          url('font/SabonLTStd-Italic/sabonltstd-italic.ttf') format('truetype'),
          url('font/SabonLTStd-Italic/sabonltstd-italic.svg#SabonLTStd-italic') format('svg');
-		}
+}
 
 *{
 	color:#666;	
@@ -302,4 +302,4 @@ video {
       to {
         opacity:1;
       }
-    }
+    }*/

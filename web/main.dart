@@ -8,25 +8,15 @@ String currentNode = "";
 Scene currentScene;
 DivElement mainEl;
 DivElement currentSceneDiv;
-void main() {
+void main(){
   currentNode = "C1Q1";
   window.localStorage.clear;
-  window.localStorage["MH"] = "0";
-  window.localStorage["MM"] = "0";
-  window.localStorage["MP"] = "0";
-  /*JsonObject jsonRoot = new JsonObject.fromJsonString('{"increments":[[{"key":"MH","value":"1"},{"key":"MP","value":"2"},{"key":"MM","value":"1"}],[{"key":"MH","value":"1"},{"key":"MP","value":"2"},{"key":"MM","value":"1"}],[{"key":"MH","value":"1"},{"key":"MP","value":"2"},{"key":"MM","value":"1"}]]}');
-  jsonRoot.increments[0].forEach((keyValuePair){
-    StringBuffer sb = new StringBuffer();
-    sb.write(int.parse(window.localStorage[keyValuePair.key]) + int.parse(keyValuePair.value));
-    window.localStorage[keyValuePair.key] = sb.toString();
-    print("Stored value");
-    print(window.localStorage[keyValuePair.key]);
-  });*/
+  initLocalStorage();
   mainEl = querySelector("#sample_container_id");
   startNode(currentNode);
   ButtonElement b = querySelector("#nextPageButton");
   b.onClick.listen(onNextPage);
-}
+}//*/
 startNode(String nodeNumber){
   HttpRequest.getString("scenes/"+nodeNumber+'.json').then((response){
     currentScene = Utils.jsonObjectToScene(response);
@@ -79,5 +69,22 @@ writeFeedbackToBook(String feedback){
 }
 
 initLocalStorage(){
+  window.localStorage.clear;
+  HttpRequest.getString("conf.json").then((response){
+      JsonObject jsonRoot = new JsonObject.fromJsonString(response);
+      jsonRoot.keys.forEach((key){
+        window.localStorage[key] = "0";
+      });
+  });
+}
 
+incrementValues(){
+  JsonObject jsonRoot = new JsonObject.fromJsonString('{"increments":[[{"key":"MH","value":"1"},{"key":"MP","value":"2"},{"key":"MM","value":"1"}],[{"key":"MH","value":"1"},{"key":"MP","value":"2"},{"key":"MM","value":"1"}],[{"key":"MH","value":"1"},{"key":"MP","value":"2"},{"key":"MM","value":"1"}]]}');
+  jsonRoot.increments[0].forEach((keyValuePair){
+    StringBuffer sb = new StringBuffer();
+    sb.write(int.parse(window.localStorage[keyValuePair.key]) + int.parse(keyValuePair.value));
+    window.localStorage[keyValuePair.key] = sb.toString();
+    print("Stored value");
+    print(window.localStorage[keyValuePair.key]);
+  });
 }

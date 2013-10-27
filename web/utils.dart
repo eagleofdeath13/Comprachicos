@@ -21,7 +21,6 @@ class Utils {
     jsonRoot.scene.possibilite.suites.forEach((a){
       scenesSuivantes.add(a.sceneSuivante);
     });
-    print(scenesSuivantes);
     return new Scene(jsonRoot.scene.texte,choix,valeur,feedback,scenesSuivantes);
   }
 }
