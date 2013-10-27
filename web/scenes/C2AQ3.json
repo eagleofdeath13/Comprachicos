@@ -18,13 +18,13 @@
       ],
       "increments":[
          [
-            { "key":"l" , "value":"1" }
+            { "key":"r" , "value":"1" }
          ],
          [
-            { "key":"l" , "value":"1" }
+            { "key":"r" , "value":"0" }
          ],
          [
-            { "key":"l" , "value":"1" }
+            { "key":"r" , "value":"0" }
          ]
       ],
       "suites":[
