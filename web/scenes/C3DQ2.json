@@ -1,5 +1,5 @@
 {"scene":{
-   "texte":"elle *.",
+   "texte":"<p>L’homme à la redingote reporte son regard sur moi.</p><p>Il grimace, un enfant normal…</p><p>Je comprends ce qui est en train de se nouer.</p><p class='nort'>D’un coup, je</p><p class='nort'>*</p><p class='nort'>comme un fou, un dément, un possédé.</p>",
    "possibilite":{
       "choix":[
          "gesticula",
@@ -12,9 +12,9 @@
          "2"
       ],
       "feedback":[
-         "feedback passé",
-         "feedback présent",
-         "feedback futur"
+         "<p>L’homme en redingote éclate de rire</p><p>et tape dans les mains au rythme de ma danse désarticulée.</p><p>Il complimente le Marchand pour avoir su trouver un véritable idiot.</p><p>L’homme en redingote se retourne alors vers le Marchand et lui tend une bourse bien remplie.</p>",
+         "<p>L’homme en redingote éclate de rire</p><p>et tape dans les mains au rythme de ma danse désarticulée.</p><p>Il complimente le Marchand pour avoir su trouver un véritable idiot.</p><p>L’homme en redingote se retourne alors vers le Marchand et lui tend une bourse bien remplie.</p>",
+         "<p>Je reste figé sur le moment avant de me mettre à entamer une danse désarticulée.</p><p>C’est trop tard, l’homme à la redingote ne me prête plus attention.</p><p>Le Marchand me lance un regard noir avant de s’éloigner un peu plus loin avec son acheteur pour discuter du prix.</p><p>La discussion est animée,</p><p>l’acheteur n’en a pas pour son argent,</p><p>il avait demandé deux enfants monstrueux.</p><p>Le Marchand cède et baisse son prix.</p><p>Un accord est proche.</p>"
       ],
       "increments":[
          [

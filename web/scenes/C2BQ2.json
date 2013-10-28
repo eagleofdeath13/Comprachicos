@@ -1,5 +1,5 @@
 {"scene":{
-   "texte":"je m'*.",
+   "texte":"<p>Il se dirige vers Esma,</p><p>lui murmurant qu'il est l'heure de la rendre belle.</p><p>Je ne laisserai pas le Marchand la toucher.</p><p class='nort'>Je</p><p class='nort'> * </p><p class='nort'>.</p>",
    "possibilite":{
       "choix":[
          "interposai",
@@ -12,9 +12,9 @@
          "0"
       ],
       "feedback":[
-         "feedback passé",
-         "feedback présent",
-         "feedback futur"
+         "<p>Le Marchand marque une pause,</p><p>surpris.</p><p>J'étais le dernier barrage entre Esma et les œuvres tordues du Marchand.</p><p>Nous avons un volontaire, annonce-t-il.</p><p>Je ne sais pas pourquoi il me sourit.</p><p>Il a vu quelque chose sur mon visage,</p><p>quelque chose qui lui plait.</p><p>Il me conduit dans son Atelier,</p><p>vers un atelier plein d'outils dont je savais que certains étaient réservés aux ébénistes et d'autres aux médecins.</p><p>mais je ne suis pas plus heureux pour autant.Il me fait allonger et me donne une pincée de poudre magique.</p><p>Tout devient noir.</p><p>Noir,</p><p>noir,</p><p>noir.</p><p>Jusqu'à ce que la douleur intense me prenne à la mâchoire et me réveille.</p><p>Je ne peux pas crier.</p><p>Je tremble.</p><p>Non, le sol tremble.</p><p>J'étais de retour dans le fiacre.</p>",
+         "<p>Le Marchand marque une pause,</p><p>surpris.</p><p>J'étais le dernier barrage entre Esma et les œuvres tordues du Marchand.</p><p>Nous avons un volontaire, annonce-t-il.</p><p>Je ne sais pas pourquoi il me sourit.</p><p>Il a vu quelque chose sur mon visage,</p><p>quelque chose qui lui plait.</p><p>Il me conduit dans son Atelier,</p><p>vers un atelier plein d'outils dont je savais que certains étaient réservés aux ébénistes et d'autres aux médecins.</p><p>mais je ne suis pas plus heureux pour autant.Il me fait allonger et me donne une pincée de poudre magique.</p><p>Tout devient noir.</p><p>Noir,</p><p>noir,</p><p>noir.</p><p>Jusqu'à ce que la douleur intense me prenne à la mâchoire et me réveille.</p><p>Je ne peux pas crier.</p><p>Je tremble.</p><p>Non, le sol tremble.</p><p>Non, le sol tremble.</p><p>J'étais de retour dans le fiacre.</p>",
+         "<p>J'essaye de me glisser entre Esma,</p><p>mais le Marchand qui me repousse dans un coin de l'enclos.</p><p>Il attrape ma sœur par le bras et la conduit vers son Atelier.</p><p>De longues minutes s'en suivent,</p><p>j'entends quelques petits cris étouffés d'Esma puis le silence.</p><p>La boule au ventre,</p><p>l'envie d'en découdre,</p><p>jusqu'à ce qu'elle réapparaisse sur une chaise étrange dotée de petites roues, poussée par le Marchand.</p><p>Une couverture lui cache les jambes.</p><p>Que lui a-t-il fait ?</p><p>Pourquoi a-t-elle l'air si calme ?</p><p>Le Marchand nous annonce calmement que nous avons rendez-vous et qu'il faut se préparer.</p>"
       ],
       "increments":[
          [

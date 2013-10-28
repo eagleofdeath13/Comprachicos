@@ -1,5 +1,5 @@
 {"scene":{
-   "texte":"il *.",
+   "texte":"<p>Un nouveau voyage vers l’inconnu.</p><p>Je me cramponne à l’assise du fiacre.</p><p>Esma, muette, est assise à mes côtés.</p><p>Ses genoux sont douloureux et portent les marques de l’art particulier des Comprachicos.</p><p>Le Marchand lui tape sur les doigts avec sa baguette à chaque fois qu’elle porte les mains à ses jambes.</p><p>Le travail n’est pas encore tout à fait achevé selon lui.</p><p>Elle a ce regard étrange.</p><p>Le Marchand lui sourit et va chercher sa petite sacoche de poudre magique,</p><p>comme il le fait à chaque fois que les mains de ma sœur commencent à trembler.</p><p>Le fiacre s’arrête.</p><p>Nous sommes arrivés à notre rendez-vous.</p><p>Un homme en redingote nous attend.</p><p>À en croire, son sourire, il semble heureux de voir Esma,</p><p>sa commande.</p><p class='nort'>Il</p><p class='nort'>*</p><p class='nort'>le travail minutieux réalisé par le Marchand</p><p>sur ses jambes atrophiées.</p>",
    "possibilite":{
       "choix":[
          "apprécia",
@@ -12,9 +12,9 @@
          "2"
       ],
       "feedback":[
-         "feedback passé",
-         "feedback présent",
-         "feedback futur"
+         "<p>Je le vois détailler Esma sous toutes les coutures.</p><p>L’homme à la redingote lui demande de sautiller et part dans un rire tonitruant.</p><p>Un véritable petit bouffon comme il l’avait demandé,</p><p>le Comprachico lui avait fourni l’assurance de soirées réussies.</p>",
+         "<p>Je le vois détailler Esma sous toutes les coutures.</p><p>L’homme à la redingote lui demande de sautiller et part dans un rire tonitruant.</p><p>Un véritable petit bouffon comme il l’avait demandé,</p><p>le Comprachico lui avait fourni l’assurance de soirées réussies.</p>",
+         "<p>Le sourire de l’homme à la redingote s’estompe.</p><p>Je comprends qu’il n’est pas entièrement satisfait de sa commande.</p><p>Esma ne lui plait pas, elle n’est peut-être pas assez monstrueuse…</p><p>Le Marchand l’a compris aussi.</p><p>Une discussion animée éclate entre les deux hommes.</p>"
       ],
       "increments":[
          [

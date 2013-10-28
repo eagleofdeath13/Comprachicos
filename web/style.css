@@ -20,7 +20,7 @@ body{
     padding-top:13%;
     padding-left:20%;
     padding-bottom:5%;
-
+    width: 100%;
 }
 
 p {
@@ -376,4 +376,12 @@ em{
 
 img{
     border:0;
+}
+#bandeau{
+    position: fixed;
+    top: 0;
+    background-image: url("sources/bandeau.png");
+    background-repeat: repeat-x;
+    width: 100%;
+    height: 94px;
 }

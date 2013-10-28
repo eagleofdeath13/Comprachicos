@@ -1,5 +1,5 @@
 {"scene":{
-   "texte":"il * fier.",
+   "texte":"<p>Le Comprachico remarque l’air satisfait de son client et scrute maintenant notre réaction.</p><p class='nort'>Il</p><p class='nort'> * </p><p class='nort'>fier de ses créations.</p>",
    "possibilite":{
       "choix":[
          "fut",
@@ -12,9 +12,9 @@
          "2"
       ],
       "feedback":[
-         "feedback passé",
-         "feedback présent",
-         "feedback futur"
+         "<p>Ses pensées sont claires.</p><p>Je comprends que nous sommes une de ses plus belles réussites et qu’il souhaite nous garder pour lui.</p><p>Bouffon d’un notable ou trophée mendiant d’un Marchand d’enfants, ce n’est pas ce que j’appelle un choix.</p>",
+         "<p>Ses pensées sont claires.</p><p>Je comprends que nous sommes une de ses plus belles réussites et qu’il souhaite nous garder pour lui.</p><p>Bouffon d’un notable ou trophée mendiant d’un Marchand d’enfants, ce n’est pas ce que j’appelle un choix.</p>",
+         "<p>Même si je lis la fierté dans ses yeux, j’y vois également qu’il n’est pas encore entièrement convaincu par son travail. </p><p>Je me souviens de l’avoir entendu répéter qu’il se considère comme un perfectionniste et que ce n’est pas parce qu’on fabrique un monstre qu’il ne doit pas être beau.</p>"
       ],
       "increments":[
          [

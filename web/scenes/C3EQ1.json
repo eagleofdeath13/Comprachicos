@@ -1,5 +1,5 @@
 {"scene":{
-   "texte":"il * .",
+   "texte":"<p>Un nouveau voyage vers l’inconnu.<p>Je me cramponne à l’assise du fiacre.<p>Mon visage est encore douloureux et porte les traces de l’art particulier des Comprachicos.</p><p>Le Marchand me tape sur les doigts avec sa baguette à chaque fois que je porte les mains à ma bouche.</p><p>Le travail n’est pas encore tout à fait achevé selon lui.</p><p>Je dois avoir ce regard étrange, le même qu’Esma, muette à mes côtés.</p><p>Ses jambes la font souffrir, je le vois bien.</p><p>Le Marchand nous sourit et va chercher sa petite sacoche de poudre magique comme il le fait à chaque fois que mes mains commencent à trembler.<p><p>Le fiacre s’arrête. Nous sommes arrivés à notre rendez-vous.</p>Un homme en redingote nous attendait.</p><p>À en croire son sourire, il semble heureux de nous voir, nous sa commande.</p><p class='nort'>Il</p><p class='nort'> * </p><p class='nort'>sûrement ravir ses convives avec ces deux petits monstres de foire.</p>",
    "possibilite":{
       "choix":[
          "imagina",
@@ -12,9 +12,9 @@
          "2"
       ],
       "feedback":[
-         "feedback passé",
-         "feedback présent",
-         "feedback futur"
+         "<p>Je le vois nous détailler sous toutes les coutures.</p><p>Deux petits bouffons, exactement comme il l’avait demandé, le Comprachico lui avait fourni l’assurance de soirées réussies.</p>",
+         "<p>Je le vois nous détailler sous toutes les coutures.</p><p>Deux petits bouffons, exactement comme il l’avait demandé, le Comprachico lui avait fourni l’assurance de soirées réussies.</p>",
+         "<p>Le sourire de l’homme à la redingote s’estompe.</p><p>Je comprends qu’il n’est pas entièrement satisfait.</p><p>Le Marchand l’a compris aussi. Une discussion animée éclate entre les deux hommes.</p>"
       ],
       "increments":[
          [

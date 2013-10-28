@@ -1,5 +1,5 @@
 {"scene":{
-   "texte":"j'* .",
+   "texte":"<p>Les rues pavées défilent sous les roues du fiacre,</p><p>vidées des habitants par le récent couvre-feu.</p><p>Je crois que nous sortons de la ville,</p><p>car les façades marbrées parfaitement alignées ont laissé place aux imposants murs de briques rouges</p><p>puis aux parapets en chaux de quelques vieilles fermes éparses.</p><p>Les chevaux ralentissent, nous arrivons.</p><p>Esma m'agrippe le bras.</p><p>Captivé par ce voyage mené à toute à l'allure,</p><p>je l'avais presque oubliée.</p><p>Le pied à peine posé à terre,</p><p>le Marchand nous invite à le suivre poliment vers un vieux bâtiment décrépi,</p><p>une ancienne écurie qui a conservé l'odeur de ses grands jours.</p><p>L'homme au chapeau avait le sens des affaires,</p><p>même avec sa marchandise.</p><p>Il nous installe dans un enclos,</p><p>meublé de quelques fétus de paille.</p><p>En comparaison,</p><p>le taudis de mon Oncle me paraissait bien plus confortable.</p><p>Esma se blottit au fond de l'enclos,</p><p>le plus loin possible du Marchand qui s'affaire autour du loquet.</p><p>Je remarque un débris de poterie à côté de ma bottine.</p><p class='nort'>Je</p><p class='nort'> * </p><p class='nort'>le tesson.</p>",
    "possibilite":{
       "choix":[
          "attrapai",
@@ -12,9 +12,9 @@
          "0"
       ],
       "feedback":[
-         "feedback passé",
-         "feedback présent",
-         "feedback futur"
+         "<p>Je glisse le petit morceau de terre cuite dans ma poche.<p><p>J'ai le sentiment qu'il me sera utile tôt ou tard.</p><p>Un talisman sacré que je dois respecter comme m'avait appris ma famille tzigane.</p><p>Le Marchand se retourna et me fixa puis posa son regard plein d'une mauvaise malice sur Esma.</p><p>Il se nous annonça laconiquement que nous avions du travail.</p>",
+         "<p>C'est ce moment précis que choisit le Marchand pour se retourner.</p><p>Il me voit tendre le bras vers le tesson.</p><p>Il me regarda avec une moue dubitative et se contente de donner un coup de pied nonchalant dans le morceau de poterie.</p><p>Ce dernier vole hors de l'enclos,</p><p>hors de mon atteinte.</p><p>Ce si petit bout de chose représentait tant d'espoir.</p><p>Un talisman sacré comme me l'avait appris sa famille tzigane.</p><p>Le Marchand me fixe puis pose son regard plein d'une mauvaise malice sur Esma.</p><p>Il nous annonce laconiquement que nous avons du travail.</p>",
+         "<p>C'est ce moment précis que choisit le Marchand pour se retourner.</p><p>Il me voit tendre le bras vers le tesson.</p><p>Il me regarda avec une moue dubitative et se contente de donner un coup de pied nonchalant dans le morceau de poterie.</p><p>Ce dernier vole hors de l'enclos,</p><p>hors de mon atteinte.</p><p>Ce si petit bout de chose représentait tant d'espoir.</p><p>Un talisman sacré comme me l'avait appris sa famille tzigane.</p><p>Le Marchand me fixe puis pose son regard plein d'une mauvaise malice sur Esma.</p><p>Il nous annonce laconiquement que nous avons du travail.</p>"
       ],
       "increments":[
          [
