@@ -1,5 +1,5 @@
 {"scene":{
-   "texte":"<p class='nort'>Ils me tournent le dos. Je sens que c’est ma chance.</p><p class='nort'>Je</p><p class='nort'> * </p><p class='nort'>de terminer ma vie comme un bouffon ou une curiosité difforme.</p>",
+   "texte":"<p class='nort'>Ils me tournent le dos. Je sens que c’est ma chance.</p><p class='nort'>Je&nbsp;</p>*<p class='nort'>&nbsp;de terminer ma vie comme un bouffon ou une curiosité difforme.</p>",
    "possibilite":{
       "choix":[
          "refusai",

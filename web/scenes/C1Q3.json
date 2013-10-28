@@ -1,5 +1,5 @@
 {"scene":{
-   "texte":"<p>Le Marchand nous regarde tour à tour avec Esma et se penche vers moi.</p><p class='nort'>Je</p><p class='nort'> grimace</p><p class='nort'> en retour.</p>",
+   "texte":"<p>Le Marchand nous regarde tour à tour avec Esma et se penche vers moi.</p><p class='nort'>Je&nbsp;</p>*<p class='nort'>&nbsp; en retour.</p>",
    "possibilite":{
       "choix":[
          "grimaçai",

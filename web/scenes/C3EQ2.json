@@ -1,5 +1,5 @@
 {"scene":{
-   "texte":"<p>Le Comprachico remarque l’air satisfait de son client et scrute maintenant notre réaction.</p><p class='nort'>Il</p><p class='nort'> * </p><p class='nort'>fier de ses créations.</p>",
+   "texte":"<p>Le Comprachico remarque l’air satisfait de son client et scrute maintenant notre réaction.</p><p class='nort'>Il&nbsp;</p>*<p class='nort'>&nbsp;fier de ses créations.</p>",
    "possibilite":{
       "choix":[
          "fut",

@@ -1,5 +1,5 @@
 {"scene":{
-   "texte":"<p>L’homme à la redingote reporte son regard sur moi.</p><p>Il grimace, un enfant normal…</p><p>Je comprends ce qui est en train de se nouer.</p><p class='nort'>D’un coup, je</p><p class='nort'>*</p><p class='nort'>comme un fou, un dément, un possédé.</p>",
+   "texte":"<p>L’homme à la redingote reporte son regard sur moi.</p><p>Il grimace, un enfant normal…</p><p>Je comprends ce qui est en train de se nouer.</p><p class='nort'>D’un coup, je&nbsp;</p>*<p class='nort'>&nbsp;comme un fou, un dément, un possédé.</p>",
    "possibilite":{
       "choix":[
          "gesticulai",

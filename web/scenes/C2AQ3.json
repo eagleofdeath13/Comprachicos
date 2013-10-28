@@ -1,5 +1,5 @@
 {"scene":{
-   "texte":"<p>Les jours passent.</p><p>Je finis par remarquer un petit tesson de poterie dans un coin de l'enclos.</p><p>Un reste d'une jarre dans laquelle on dit qu'ont été enfermés d'autres enfants.</p><p class='nort'>Je </p><p class='nort'> * </p><p class='nort'>l'objet</p>",
+   "texte":"<p>Les jours passent.</p><p>Je finis par remarquer un petit tesson de poterie dans un coin de l'enclos.</p><p>Un reste d'une jarre dans laquelle on dit qu'ont été enfermés d'autres enfants.</p><p class='nort'>Je &nbsp;</p>*<p class='nort'>&nbsp;l'objet</p>",
    "possibilite":{
       "choix":[
          "ramassai",

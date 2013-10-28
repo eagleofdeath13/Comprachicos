@@ -1,7 +1,7 @@
 import 'dart:html';
 import 'dart:convert';
+import 'dart:json';
 import 'scene.dart';
-import 'package:json_object/json_object.dart';
 import 'utils.dart';
 
 String currentNode = "";
@@ -28,6 +28,7 @@ startNode(String nodeNumber){
     currentJson = response;
     currentScene = Utils.jsonObjectToScene(response);
     writeSceneToBook(currentScene);
+    window.scrollTo(window.scrollX,window.innerHeight);
   });
 }
 onNextPage(MouseEvent e){
@@ -36,7 +37,7 @@ onNextPage(MouseEvent e){
   incrementValues(currentScene.increments.elementAt(selectedIndex));
   DivElement de = new DivElement();
   de.classes.add("wrap");
-  de.appendHtml(currentScene.text.replaceAll("*",se.item(selectedIndex).text));
+  de.appendHtml(currentScene.text.replaceAll("*","<p class='nort'>"+se.item(selectedIndex).text+"</p>"));
   de.id=currentNode+"div";
   querySelector("#"+currentNode+"div").remove();
   mainEl.append(de);
@@ -45,13 +46,6 @@ onNextPage(MouseEvent e){
   print("SceneSuivante");
   print(str);
   print("toto");
-  //startNode(str);
-
-
-  /*if(currentScene.scenesSuivantes.length == 1){
-    startNode(currentScene.scenesSuivantes[0]);
-    currentNode = currentScene.scenesSuivantes[0];
-  }*/
 }
 
 writeSceneToBook(Scene scene){
@@ -64,6 +58,7 @@ writeSceneToBook(Scene scene){
   sceneDiv.appendHtml(textParts.elementAt(0));
   SelectElement se = new SelectElement();
   se.id = "conjugaison";
+  print(scene.choix);
   scene.choix.forEach((String s){
     OptionElement oe = new OptionElement();
     oe.value = scene.valeur.elementAt(scene.choix.indexOf(s));
@@ -98,31 +93,28 @@ String sceneSuivante(){
   print("Début suivante");
   HttpRequest.getString("scenes/"+currentNode+'.json').then((response){
     String sc;
-    JsonObject scene = new JsonObject.fromJsonString(response).scene;
-    scene.possibilite.suites.forEach((suite){
+    Map sceneMap = parse(response)["scene"];
+    sceneMap["possibilite"]["suites"].forEach((suite){
       print("pos");
       if(sc == null){
-        sc=suite.sceneSuivante;
+        print("suite");
+        print(suite);
+        sc=suite["sceneSuivante"];
         print("true");
-
-        //print(suite.conditions);
-      suite.conditions.forEach((condition){
-        if(storage[condition[0]] < int.parse(condition[1])){
-          sc = null;
+        suite["conditions"].forEach((condition){
+          if(storage[condition[0]] < int.parse(condition[1])){
+            sc = null;
+          }
+        });
+        if(sc != null){
+          currentNode = suite["sceneSuivante"];
+          print("On a retour");
+          print(suite["sceneSuivante"]);
+          startNode(suite["sceneSuivante"]);
+          print(storage["s"]);
+          return suite["sceneSuivante"];
         }
-      });
-
-      if(sc != null){
-        currentNode = suite.sceneSuivante;
-        print("On a retour");
-        print(suite.sceneSuivante);
-        startNode(suite.sceneSuivante);
-        print(storage["s"]);
-        return suite.sceneSuivante;
-      }
       }
     });
-    //writeSceneToBook(currentScene);
-
   });
 }
