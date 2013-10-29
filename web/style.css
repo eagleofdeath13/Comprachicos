@@ -218,6 +218,58 @@ li {
     -webkit-animation-duration:15s;
     -webkit-animation-name:slidein;
 }
+
+.wrap p:nth-child(20){
+    -ms-animation-duration:15s;
+    -ms-animation-name:slidein;
+    -moz-animation-duration:15s;
+    -moz-animation-name:slidein;
+    -webkit-animation-duration:15s;
+    -webkit-animation-name:slidein;
+}
+.wrap p:nth-child(21){
+    -ms-animation-duration:15s;
+    -ms-animation-name:slidein;
+    -moz-animation-duration:15s;
+    -moz-animation-name:slidein;
+    -webkit-animation-duration:15s;
+    -webkit-animation-name:slidein;
+}
+.wrap p:nth-child(22){
+    -ms-animation-duration:15s;
+    -ms-animation-name:slidein;
+    -moz-animation-duration:15s;
+    -moz-animation-name:slidein;
+    -webkit-animation-duration:15s;
+    -webkit-animation-name:slidein;
+}
+.wrap p:nth-child(23){
+    -ms-animation-duration:15s;
+    -ms-animation-name:slidein;
+    -moz-animation-duration:15s;
+    -moz-animation-name:slidein;
+    -webkit-animation-duration:15s;
+    -webkit-animation-name:slidein;
+}
+.wrap p:nth-child(24){
+    -ms-animation-duration:15s;
+    -ms-animation-name:slidein;
+    -moz-animation-duration:15s;
+    -moz-animation-name:slidein;
+    -webkit-animation-duration:15s;
+    -webkit-animation-name:slidein;
+}
+
+.wrap p:nth-child(25){
+    -ms-animation-duration:15s;
+    -ms-animation-name:slidein;
+    -moz-animation-duration:15s;
+    -moz-animation-name:slidein;
+    -webkit-animation-duration:15s;
+    -webkit-animation-name:slidein;
+}
+
+
 .feedback{
     -ms-animation-duration:10s;
     -ms-animation-name:slidein;
