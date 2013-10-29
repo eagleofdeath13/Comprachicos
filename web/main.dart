@@ -1,8 +1,7 @@
 import 'dart:html';
 import 'dart:convert';
 import 'dart:json';
-import 'scene.dart';
-import 'utils.dart';
+import 'comprachicos.dart';
 
 String currentNode = "";
 Scene currentScene;
