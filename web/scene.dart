@@ -1,3 +1,5 @@
+part of comprachicos;
+
 class Scene {
   String text;
   List<String> choix,valeur,feedback;
