@@ -1,9 +1,11 @@
 part of comprachicos;
 
+
 class Utils {
   utils();
   static Scene jsonObjectToScene(String json){
-    Map scene = JSON.parse(json)['scene'];
+    Map jsonRoot = JSON.decode(json);
+    Map scene = jsonRoot['scene'];
     List<String> choix = scene["possibilite"]["choix"];
     List<String> valeur = scene["possibilite"]["valeur"];
     List<String> feedback = scene["possibilite"]["feedback"];

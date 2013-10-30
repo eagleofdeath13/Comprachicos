@@ -91,7 +91,8 @@ String sceneSuivante(){
   print("Début suivante");
   HttpRequest.getString("scenes/"+currentNode+'.json').then((response){
     String sc;
-    Map sceneMap = JSON.parse(response)["scene"];
+    Map jsonRoot = JSON.decode(response);
+    Map sceneMap = jsonRoot["scene"];
     sceneMap["possibilite"]["suites"].forEach((suite){
       print("pos");
       if(sc == null){

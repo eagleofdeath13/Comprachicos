@@ -518,7 +518,7 @@ function DartObject(o) {
         list.push(deserializeDataTree(value[i]));
       }
       return list;
-    } else {
+    } else /* 'simple' */ {
       return deserialize(value);
     }
   }
