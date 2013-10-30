@@ -1,5 +1,5 @@
 {"scene":{
-   "texte":"<p>Dans les jours qui suivirent,</p><p>un homme en redingote vint nous visiter.</p><p>Une grande occasion,</p><p class='nort'>le Marchand</p><p class='nort'> * </p><p class='nort'>une commande importante.</p>",
+   "texte":"<p>Dans les jours qui suivirent,</p><p>un homme en redingote vint nous visiter.</p><p>Une grande occasion,</p><p class='nort'>le Marchand&nbsp;</p>*<p class='nort'>&nbsp;une commande importante.</p>",
    "possibilite":{
       "choix":[
          "reçu",

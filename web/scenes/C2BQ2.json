@@ -1,5 +1,5 @@
 {"scene":{
-   "texte":"<p>Il se dirige vers Esma,</p><p>lui murmurant qu'il est l'heure de la rendre belle.</p><p>Je ne laisserai pas le Marchand la toucher.</p><p class='nort'>Je&nbsp;</p>*<p class='nort'>&nbsp;.</p>",
+   "texte":"<p>Il se dirige vers Esma,</p><p>lui murmurant qu'il est l'heure de la rendre belle.</p><p>Je ne laisserai pas le Marchand la toucher.</p><p class='nort'>Je m'&nbsp;</p>*<p class='nort'>&nbsp;.</p>",
    "possibilite":{
       "choix":[
          "interposai",
