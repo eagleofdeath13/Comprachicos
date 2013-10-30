@@ -1,6 +1,5 @@
 import 'dart:html';
-import 'dart:convert';
-import 'dart:json';
+import 'dart:convert' show JSON;
 import 'comprachicos.dart';
 
 String currentNode = "";
@@ -92,7 +91,7 @@ String sceneSuivante(){
   print("Début suivante");
   HttpRequest.getString("scenes/"+currentNode+'.json').then((response){
     String sc;
-    Map sceneMap = parse(response)["scene"];
+    Map sceneMap = JSON.parse(response)["scene"];
     sceneMap["possibilite"]["suites"].forEach((suite){
       print("pos");
       if(sc == null){

@@ -1,6 +1,6 @@
 library comprachicos;
 
-import 'dart:json';
+import 'dart:convert';
 
 part 'scene.dart';
 part 'utils.dart';
