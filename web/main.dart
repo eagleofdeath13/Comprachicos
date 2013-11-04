@@ -26,7 +26,7 @@ startNode(String nodeNumber){
     currentJson = response;
     currentScene = Utils.jsonObjectToScene(response);
     writeSceneToBook(currentScene);
-    window.scrollTo(window.scrollX,window.innerHeight);
+    //window.scrollTo(window.scrollX,window.innerHeight);
   });
 }
 onNextPage(MouseEvent e){

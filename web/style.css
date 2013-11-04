@@ -433,7 +433,7 @@ select{
     -ms-user-select: none; /* IE10+ */
     cursor:default;
 }
-input{
+button{
     background-color:transparent;
     background-image:url(bouton/bouton.png);
     background-repeat:no-repeat;

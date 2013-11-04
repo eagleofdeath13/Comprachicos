@@ -1507,9 +1507,9 @@ H.VM(x,[z,y])
 return H.qI(x,"$isi1",[c,d],"$asi1")}}},xy:{"":"i1;Kw,ew",$asi1:null,
 $asmW:function(a,b){return[b]},
 $ascX:function(a,b){return[b]},
-$isqC:true},MH:{"":"An;mD?,qI,ew",
+$isqC:true},MH:{"":"An;mD?,RX,ew",
 ei:function(a){return this.ew.call$1(a)},
-G:function(){var z=this.qI
+G:function(){var z=this.RX
 if(z.G()){this.smD(this.ei(z.gl()))
 return!0}this.smD(null)
 return!1},
@@ -3402,7 +3402,6 @@ sLU:function(a,b){a.href=H.IV(b)},
 u2:function(a,b){return a.adoptNode(b)},
 ex:function(a,b,c){return a.createElement(b,c)},
 Wk:function(a,b){return a.querySelector(b)},
-$isQF:true,
 "%":"SVGDocument;Document"},hs:{"":"KV;",$ishs:true,"%":"DocumentFragment|ShadowRoot"},Nh:{"":"Pu;",
 bu:function(a){return a.toString()},
 "%":"DOMException"},ae:{"":"Pu;",
@@ -3515,9 +3514,7 @@ gmW:function(a){var z=a.location
 if(H.Yg(W.uC(z)))return H.lD(z,"$isu8")
 if(null==a._location_wrapper)a._location_wrapper=new W.rB(z)
 return a._location_wrapper},
-RX:function(a,b,c){return a.scrollTo(b,c)},
 bu:function(a){return a.toString()},
-gDb:function(a){return"scrollX" in a?a.scrollX:a.document.documentElement.scrollLeft},
 $isOi:true,
 $isD0:true,
 "%":"DOMWindow|Window"},UM:{"":"KV;oc:name=,P:value=","%":"Attr"},rh:{"":"kE;",
@@ -3996,8 +3993,7 @@ z.aN(z,new F.v0(a))},Hw:function(){P.JS("D\u00e9but suivante")
 W.Kn(C.xB.g("scenes/",$.nv)+".json",null,null).ml(new F.tD())},vF:{"":"Tp;",
 call$1:function(a){$.n2=H.IV(a)
 $.r2=N.e1(a)
-F.QQ($.r2)
-C.ol.RX(window,C.ol.gDb(window),window.innerHeight)},
+F.QQ($.r2)},
 $isEH:true,
 $signature:function(){return{func:"aB",args:[null]}},
 $is_aB:true},kn:{"":"Tp;a,b",
